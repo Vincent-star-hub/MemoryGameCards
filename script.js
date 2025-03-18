@@ -83,9 +83,4 @@ function startGame() {
       }, 500);
     }
   }
-  document.querySelectorAll(".card").forEach((card) => {
-    card.addEventListener("click", incrementAttempts);
-  });
-
-  startGame();
 }
