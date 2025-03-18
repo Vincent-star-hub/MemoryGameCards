@@ -1,0 +1,60 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+h1 {
+  color: #333;
+}
+#gameBoard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ddd;
+  margin-top: 20px;
+  font-size: 78px;
+}
+.card {
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  background-color: #fff;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.card.flipped {
+  background-color: #4caf50;
+}
+button {
+  padding: 8px 18px;
+  font-size: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+#numCards {
+  font-size: 20px;
+  margin-top: 10px;
+}
+label {
+  font-size: 20px;
+}
+#attempts {
+  font-size: 20px;
+  margin-top: 10px;
+}
